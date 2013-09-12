@@ -1,5 +1,3 @@
-
-
 jQuery('*').mouseenter(function(){
     if (jQuery(this).text() !== "" && jQuery(this).children().length == 0) {
         this.oldColor = jQuery(this).css('background-color');
